@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+.boxWrap{width: 80%; margin: auto; overflow: hidden;}
+table{
+	border: 1px solid black;
+	width: 100%;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+
+.quest input{width: 100%;}
+.box1{width: 50%; float: left; height: 300px; overflow: auto;}
+.box2{width: 50%; float: left; height: 300px;}
+.box3{width: 100%; text-align: center;}

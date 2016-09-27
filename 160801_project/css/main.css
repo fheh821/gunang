@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+	*{margin:0; padding:0}
+	#container{
+		width: 1000px;
+		margin: auto;
+	}
+	#nav{
+		padding-left: 100px;
+		margin : 0 30px;
+		background-color: #23b300;
+	}
+	a{
+		margin: 30px;	
+		color: white;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#leftContents{
+		width: 70%;
+		float: left;
+		background-color: pink;
+	}
+	#sideBar{
+		width: 30%;
+		float: right;
+		background-color: skyblue;
+	}
+	#loginForm{
+		padding: 10px;
+		width: 100%;
+		text-align: center;
+	}
+	ol,ul{
+		list-style-type: none;
+	}
+	#footer{
+		clear: both;
+		background-color: burlywood;
+	}
